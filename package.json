@@ -1,10 +1,10 @@
 {
-  "name": "fs-init-myApp",
+  "name": "fs-init-myapp",
   "version": "1.0.0",
   "description": "A CLI tool to initialize a new project",
   "main": "bin/index.js",
   "bin": {
-    "fs-init-myApp": "./bin/index.js"
+    "fs-init-myApp": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
