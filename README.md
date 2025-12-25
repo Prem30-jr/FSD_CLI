@@ -19,7 +19,7 @@ fs-init-myApp offers a rich feature set designed to deliver a working app with m
 - 📄Generates a README automatically for each created project.
 - 🌍Works globally after a one-time npm global installation.
 
-### Supported Tech Stack
+### 🧠Supported Tech Stack
 
 fs-init-myApp supports several popular technologies for each application layer.
 
@@ -41,17 +41,17 @@ fs-init-myApp supports several popular technologies for each application layer.
 
 ⚠️ Only valid combinations are allowed, and the CLI blocks incompatible stacks automatically.
 
-### Safety and Edge Case Handling
+### 🛡️Safety and Edge Case Handling
 
 The CLI focuses strongly on safety and predictable behavior.
 
-- Detects and handles existing folders with overwrite, rename, or exit options.
-- Handles user aborts through Ctrl+C without leaving partial projects.
-- Validates database URLs and rejects invalid connection strings.
-- Detects missing backend templates and reports clear errors.
-- Performs automatic rollback on partial generation failures.
-- Handles npm or internet failures with clean, actionable error messages.
-- Guarantees no half-generated or broken projects remain on disk.
+- ✅Detects and handles existing folders with overwrite, rename, or exit options.
+- ✅Handles user aborts through Ctrl+C without leaving partial projects.
+- ✅Validates database URLs and rejects invalid connection strings.
+- ✅Detects missing backend templates and reports clear errors.
+- ✅Performs automatic rollback on partial generation failures.
+- ✅Handles npm or internet failures with clean, actionable error messages.
+- ✅Guarantees no half-generated or broken projects remain on disk.
 
 ## Requirements
 
@@ -63,7 +63,7 @@ You need a minimal environment to install and run fs-init-myApp.
 - Python installed if you choose Flask as backend.
 - A supported operating system like Windows, macOS, or Linux.
 
-## Installation
+## 📦Installation
 
 You can install fs-init-myApp globally from npm to use it from any folder.
 
@@ -81,7 +81,7 @@ You can install fs-init-myApp globally from npm to use it from any folder.
 
 3. If the command is not found, ensure your global npm bin directory is on the PATH.
 
-## Usage
+## 🚀Usage
 
 fs-init-myApp creates a new full-stack project through a guided, interactive flow. You choose frontend, backend, database, and authentication, and the tool takes care of wiring and configuration.
 
@@ -95,16 +95,16 @@ fs-init-myApp myProject
 
 You will be guided through an interactive prompt.
 
-- Select frontend framework.
-- Select backend framework.
-- Select database.
-- Enter database connection string.
-- Select authentication method.
-- Enter JWT secret key.
+- ✔ Select frontend framework.
+- ✔ Select backend framework.
+- ✔ Select database.
+- ✔ Enter database connection string.
+- ✔ Select authentication method.
+- ✔ Enter JWT secret key.
 
-After completion, the tool generates a full-stack project that is ready to run.
+After completion, the tool generates a full-stack project that is ready to run 🎉.
 
-### Generated Project Structure
+### 📁Generated Project Structure
 
 The generated project follows a clear and conventional structure.
 
@@ -118,7 +118,7 @@ myProject/
 
 The exact contents of `client` and `server` depend on your chosen stack.
 
-### How to Run the Generated Project
+### ▶️How to Run the Generated Project
 
 You can start both frontend and backend with simple commands.
 
@@ -171,7 +171,7 @@ You can start both frontend and backend with simple commands.
 
    Use secure values for production environments and keep this file private.
 
-### Example Valid Database URLs
+### 🧪Example Valid Database URLs
 
 You must provide valid database URLs during project creation.
 
@@ -196,7 +196,7 @@ You must provide valid database URLs during project creation.
 
 The CLI validates these URLs and warns if they look incorrect.
 
-### Why This Project Is Different
+### 📌Why This Project Is Different
 
 Most student projects build single applications; this project builds tools that build applications. It focuses on real-world workflows rather than toy examples. The design highlights automation, error handling, and developer experience. It reflects system thinking and CLI design principles rather than only framework skills.
 
@@ -208,7 +208,7 @@ Key aspects demonstrated:
 - Robust error handling strategies.
 - Alignment with real-world project workflows.
 
-### Roadmap
+### 📈Roadmap
 
 Planned future enhancements aim to increase flexibility and power.
 
@@ -218,7 +218,7 @@ Planned future enhancements aim to increase flexibility and power.
 - Cloud deployment templates for common providers.
 - Plugin based architecture to extend the CLI.
 
-### Contributing
+### 🤝Contributing
 
 Contributions are welcome and encouraged.
 
@@ -229,17 +229,17 @@ Contributions are welcome and encouraged.
 
 Please follow existing patterns and keep the focus on DX and safety.
 
-### License
+### 📄License
 
 This project is distributed under the MIT License. You are free to use, modify, and distribute it under the license terms.
 
-### Author
+### 👨‍💻Author
 
 fs-init-myApp is created and maintained by Prem Kumar. He works as a full-stack developer with a focus on AI and systems thinking.
 
 If you like this project, consider starring the repository on GitHub.
 
-### Final Note
+### 🏁Final Note
 
 If you can run the command below and get a working full-stack project, the tool has achieved its goal.
 
