@@ -1,23 +1,23 @@
-# fs-init-myApp
+# 🚀fs-init-myApp
 
 ## Introduction
 
 fs-init-myApp is an npm CLI tool that generates a complete full-stack application from a single command. It works like npm init, but for real-world full-stack projects with frontend, backend, database, and authentication. The tool focuses on developer experience, safety, and automation, handling edge cases that most scaffolding tools ignore. You get a ready-to-run project instead of a half-configured template.
 
-## Features
+## ✨Features
 
 fs-init-myApp offers a rich feature set designed to deliver a working app with minimal effort.
 
 - One command generates a fully working full-stack project.
-- Interactive CLI with arrow-key selection, similar to npm create vite.
-- Auto-generates frontend and backend folder structures.
-- Automatically wires database connection into the backend layer.
-- Sets up authentication using JWT by default.
-- Validates stack compatibility and prevents invalid combinations.
-- Performs safe rollback on failure to avoid broken projects.
-- Handles Ctrl+C, folder conflicts, and npm failures gracefully.
-- Generates a README automatically for each created project.
-- Works globally after a one-time npm global installation.
+- 🔧Interactive CLI with arrow-key selection, similar to npm create vite.
+- 📦Auto-generates frontend and backend folder structures.
+- 🔗Automatically wires database connection into the backend layer.
+- 🔐Sets up authentication using JWT by default.
+- 🧪Validates stack compatibility and prevents invalid combinations.
+- ♻️Performs safe rollback on failure to avoid broken projects.
+- 🚫Handles Ctrl+C, folder conflicts, and npm failures gracefully.
+- 📄Generates a README automatically for each created project.
+- 🌍Works globally after a one-time npm global installation.
 
 ### Supported Tech Stack
 
